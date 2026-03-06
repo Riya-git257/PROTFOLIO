@@ -110,3 +110,17 @@
   color: #2c2520;
   box-shadow: 0 2px 8px rgba(196, 133, 90, 0.25);
 }
+@media (max-width: 768px) {
+  .cert-title {
+    font-size: 2rem;
+  }
+
+  .cert-badge {
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  .cert-view-btn {
+    margin-left: 0;
+  }
+}

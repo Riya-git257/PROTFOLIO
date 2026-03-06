@@ -138,3 +138,12 @@
   margin-top: 1rem;
   text-align: center;
 }
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

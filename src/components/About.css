@@ -65,3 +65,17 @@
   color: #8c7b6e;
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-bio {
+    font-size: 0.95rem;
+  }
+
+  .facts-grid {
+    grid-template-columns: 1fr;
+  }
+}
