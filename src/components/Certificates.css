@@ -1,0 +1,112 @@
+.certifications {
+  padding: 5rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cert-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.5rem;
+  color: #2c2520;
+  margin-bottom: 0.8rem;
+}
+
+.cert-divider {
+  width: 50px;
+  height: 3px;
+  background-color: #c4855a;
+  margin: 0 auto 1rem auto;
+  border-radius: 999px;
+}
+
+.cert-subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  color: #8c7b6e;
+  margin-bottom: 3rem;
+}
+
+.cert-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cert-badge {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  background-color: #f0ebe3;
+  border: 1px solid #e0d8cc;
+  border-radius: 16px;
+  padding: 1.2rem 1.5rem;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.cert-badge:hover {
+  transform: translateX(6px);
+}
+
+.cert-emoji {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.cert-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.cert-name {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #2c2520;
+}
+
+.cert-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.cert-issuer {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: #6b7f6e;
+}
+
+.cert-dot {
+  color: #e0d8cc;
+}
+
+.cert-year {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: #c4855a;
+}
+.cert-view-btn {
+  margin-left: auto;
+  flex-shrink: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  color: #c4855a;
+  text-decoration: none;
+  background-color: #faf7f2;
+  border: 1px solid #e8c9a0;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  letter-spacing: 0.05em;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 4px rgba(196, 133, 90, 0.15);
+}
+
+.cert-view-btn:hover {
+  background-color: #e8c9a0;
+  border-color: #c4855a;
+  color: #2c2520;
+  box-shadow: 0 2px 8px rgba(196, 133, 90, 0.25);
+}

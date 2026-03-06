@@ -1,0 +1,76 @@
+.skills {
+  padding: 5rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.5rem;
+  color: #2c2520;
+  margin-bottom: 0.8rem;
+}
+
+.skills-divider {
+  width: 50px;
+  height: 3px;
+  background-color: #c4855a;
+  margin: 0 auto 1rem auto;
+  border-radius: 999px;
+}
+
+.skills-subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  color: #8c7b6e;
+  margin-bottom: 3rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-card {
+  background-color: #f0ebe3;
+  border: 1px solid #e0d8cc;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+}
+
+.skill-emoji {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.skill-category {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.1rem;
+  color: #2c2520;
+  margin-bottom: 1rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: #6b7f6e;
+  background-color: #faf7f2;
+  border: 1px solid #e0d8cc;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+}

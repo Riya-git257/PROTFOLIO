@@ -1,0 +1,140 @@
+.contact {
+  padding: 5rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.5rem;
+  color: #2c2520;
+  margin-bottom: 0.8rem;
+}
+
+.contact-divider {
+  width: 50px;
+  height: 3px;
+  background-color: #c4855a;
+  margin: 0 auto 1rem auto;
+  border-radius: 999px;
+}
+
+.contact-subtitle {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  color: #8c7b6e;
+  margin-bottom: 3rem;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  text-align: left;
+}
+
+.contact-card,
+.contact-form-card {
+  background-color: #f0ebe3;
+  border: 1px solid #e0d8cc;
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.contact-card:hover,
+.contact-form-card:hover {
+  transform: translateY(-4px);
+}
+
+.contact-emoji {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.contact-card-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.2rem;
+  color: #2c2520;
+  margin-bottom: 0.5rem;
+}
+
+.contact-card-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  color: #8c7b6e;
+  margin-bottom: 1.2rem;
+}
+
+.contact-card-btn {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  color: #c4855a;
+  text-decoration: none;
+  border: 1px solid #e8c9a0;
+  background-color: #faf7f2;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 4px rgba(196, 133, 90, 0.15);
+}
+
+.contact-card-btn:hover {
+  background-color: #e8c9a0;
+  border-color: #c4855a;
+  color: #2c2520;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.contact-input {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  color: #2c2520;
+  background-color: #faf7f2;
+  border: 1px solid #e0d8cc;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.contact-input:focus {
+  border-color: #c4855a;
+}
+
+.contact-textarea {
+  resize: none;
+}
+
+.contact-submit {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  color: #faf7f2;
+  background-color: #c4855a;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  box-shadow: 0 2px 8px rgba(196, 133, 90, 0.25);
+}
+
+.contact-submit:hover {
+  opacity: 0.9;
+}
+
+.contact-success {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  color: #6b7f6e;
+  margin-top: 1rem;
+  text-align: center;
+}

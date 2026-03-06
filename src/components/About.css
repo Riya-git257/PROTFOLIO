@@ -1,0 +1,67 @@
+.about {
+  padding: 5rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2.5rem;
+  color: #2c2520;
+  margin-bottom: 0.8rem;
+}
+
+.about-divider {
+  width: 50px;
+  height: 3px;
+  background-color: #c4855a;
+  margin: 0 auto 2rem auto;
+  border-radius: 999px;
+}
+
+.about-bio {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.05rem;
+  color: #8c7b6e;
+  line-height: 1.9;
+  margin-bottom: 3rem;
+}
+
+.facts-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.4rem;
+  color: #2c2520;
+  margin-bottom: 1.5rem;
+}
+
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.2rem;
+}
+
+.fact-card {
+  background-color: #f0ebe3;
+  border: 1px solid #e0d8cc;
+  border-radius: 16px;
+  padding: 1.5rem 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.fact-card:hover {
+  transform: translateY(-10px);
+}
+
+.fact-emoji {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.fact-card p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  color: #8c7b6e;
+  line-height: 1.6;
+}

@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #faf7f2;
+  color: #2c2520;
+}
+
+section {
+  scroll-margin-top: 70px;
+}

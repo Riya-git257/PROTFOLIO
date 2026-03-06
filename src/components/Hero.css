@@ -1,0 +1,76 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  background-color: #faf7f2;
+}
+
+.hero-photo img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #e8c9a0;
+  margin-bottom: 1.5rem;
+}
+
+.hero-name {
+  font-family: 'DM Serif Display', serif;
+  font-size: 3rem;
+  color: #2c2520;
+  margin-bottom: 0.5rem;
+}
+
+.hero-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  color: #6b7f6e;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.hero-bio {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.05rem;
+  color: #8c7b6e;
+  max-width: 500px;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.hero-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-links a {
+  padding: 0.6rem 1.5rem;
+  border-radius: 999px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-links a:first-child {
+  border: 1.5px solid #e0d8cc;
+  color: #2c2520;
+}
+
+.hero-links a:first-child:hover {
+  background-color: #f0ebe3;
+}
+
+.hero-links a:last-child {
+  background-color: #c4855a;
+  color: #faf7f2;
+}
+
+.hero-links a:last-child:hover {
+  opacity: 0.9;
+}
