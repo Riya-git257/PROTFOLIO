@@ -9,7 +9,7 @@ const projects = [
     description: "A Streamlit-based RAG (Retrieval-Augmented Generation) application built using Python and the LangChain framework, integrated with Hugging Face models. It generates a 300-line summary from any provided webpage URL or YouTube link using LLM components.",
     tech: ["Python", "LangChain", "Hugging Face", "Streamlit"],
     github: "https://github.com/Riya-git257/Text-Summarization",
-    demo: null
+    demo: "https://text-summarization-fxmiwadgxzvoevm4wmd4lz.streamlit.app/"
   },
   {
     id: 2,
