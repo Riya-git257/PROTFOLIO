@@ -7,35 +7,35 @@ const certifications = [
     issuer: "Udemy",
     year: "2025",
     emoji: "🤖",
-    image: "/certificates/genai-langchain.jpeg"
+    image: "/certification/genai-langchain.jpeg"
   },
   {
     name: "Oracle Cloud Infrastructure 2025 Certified Generative AI Professional",
     issuer: "Oracle",
     year: "2025",
     emoji: "☁️",
-    image: "/certificates/oracle-genai-pro.jpeg"
+    image: "/certification/oracle-genai-pro.jpeg"
   },
   {
     name: "Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate",
     issuer: "Oracle",
     year: "2025",
     emoji: "☁️",
-    image: "/certificates/oracle-ai-foundation.jpeg"
+    image: "/certification/oracle-ai-foundation.jpeg"
   },
   {
     name: "The Complete Python Bootcamp From Zero to Hero in Python",
     issuer: "Udemy",
     year: "2024",
     emoji: "🐍",
-    image: "/certificates/python-bootcamp.jpeg"
+    image: "/certification/python-bootcamp.jpeg"
   },
   {
     name: "C Programming",
     issuer: "Udemy",
     year: "2023",
     emoji: "💻",
-    image: "/certificates/c-programming.jpeg"
+    image: "/certification/c-programming.jpeg"
   }
 ]
 function Certifications() {
